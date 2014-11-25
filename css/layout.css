@@ -1,0 +1,41 @@
+/*
+ * Bryce Mitchell
+ * Layout related CSS.
+ */
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    word-spacing: 2em;
+    padding: 1em 0em;
+}
+nav a { 
+    word-spacing: normal;
+}
+.page {
+    padding: 0em 2em;
+    margin: 0 auto;
+    max-width: 35em;
+}
+.main-content {
+    padding: 0em;
+}
+.main-footer {
+    clear: both;
+    padding: 0.5em 0em;
+    text-align: center;
+}
+nav .icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+}
+.link-next {
+    display: block;
+    float: right;
+}
+.link-previous {
+    display: block;
+    float: left;
+}
