@@ -39,3 +39,15 @@ nav .icon {
     display: block;
     float: left;
 }
+/*
+ * Mobile CSS
+ */
+@media (max-width:500px) {
+    nav {
+        word-spacing: 1em;
+        padding: 0.5em 0em;
+    }
+    .page {
+        padding: 0em 1em;
+    }
+}
