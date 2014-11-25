@@ -1,0 +1,9 @@
+#Site Settings
+title: Bryce Mitchell's Homepage
+email: fake@dontemail.me
+description: >
+    The homepage of Bryce Mitchell.
+baseurl: ""
+encoding: UTF-8
+markdown: kramdown
+icon: "/img/glider-orange.svg"
