@@ -11,9 +11,9 @@ find something to your liking someday.
 {% if site.posts.size > 0 %}
 ### Recent Blog Posts
 {% for post in site.posts %}
-* [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
+* [{{ post.title }}]({{ post.url | prepend: site.baseurl }})\\
+  <small>{{ post.date | date: "%b %-d, %Y" }}</small>
 
-    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
 {% endfor %}
 {% endif %}
 

@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<div class='page'>
+<!-- Site navigation bar -->
+{% include navbar.html %}
+<!-- Main content of the page -->
 <article class='main-content'>
     <header class='banner'>
         <h1 class="title">{{ page.title }}</h1>
@@ -10,3 +14,6 @@ layout: default
     </header>
     {{ content }}
 </article>
+<!-- Generic footer material -->
+{% include footer.html %}
+</div>

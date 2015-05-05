@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{ "/css/layout.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/frills.css" | prepend: site.baseurl }}">
+
+{% if page.css %}
+{% for c in page.css %}
+<link rel="stylesheet" href="{{ c | prepend: site.baseurl }}">
+{% endfor %}
+{% endif %}

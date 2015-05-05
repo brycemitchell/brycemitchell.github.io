@@ -1,0 +1,5 @@
+{% if page.scripts %}
+{% for s in page.scripts %}
+<script src="{{ s | prepend: site.baseurl }}"></script>
+{% endfor %}
+{% endif %}

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-bgcolor: "#6aa"
 subtitle: blank
 ---
 

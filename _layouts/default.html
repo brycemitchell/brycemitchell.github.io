@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+<!--
+    How granular should this head stuff be? I could just include it all in this
+    template, but it's likely to carry across many pages.
+-->
+<head>
+    <title>
+        {% if page.title %} {{ page.title }}
+        {% else %}          {{ site.title }}
+        {% endif %}
+    </title>
+    {% include head.html %}
+    {% include meta.html %}
+    {% include style.html %}
+    {% include scripts.html %}
+</head>
+<!--
+
+-->
 <body>
-<div class="page">
-{% include navbar.html %}
-{{ content }}
-{% include footer.html %}
-</div>
+    {{ content }}
 </body>
 </html>
