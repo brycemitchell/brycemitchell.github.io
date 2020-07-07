@@ -6,7 +6,7 @@ subtitle: The homepage of Bryce Mitchell
 Under construction. This is a page all about my adventures in the land of
 fortune and opportunity. I will include things on this page that I am
 interested in, working on, or otherwise obligated to discuss. I hope you
-find something to your liking someday.
+find something to your liking someday. someday.. someday...
 
 {% if site.posts.size > 0 %}
 ### Recent Blog Posts
